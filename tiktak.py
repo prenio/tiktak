@@ -155,14 +155,14 @@ while running:
 
     if player == 1:
         if win_state(board):
-            screen.blit(win1,(200, 725))
+            screen.blit(win2,(200, 725))
         elif turn >= 10:
              screen.blit(tie, (100, 725))
         else:
             screen.blit(p1,(225, 725))
     else:
         if win_state(board):
-            screen.blit(win2,(200, 725))
+            screen.blit(win1,(200, 725))
         elif turn >= 10:
             screen.blit(tie, (100, 725))
         else:
