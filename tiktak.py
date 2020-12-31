@@ -1,3 +1,7 @@
+#Tik-Tak-Toe
+#Created: Spring 2020
+#Author: Pierce Renio
+#A tik-tak-toe game made from scratch for pygame
 
 import pygame, random
 from pygame.locals import (
